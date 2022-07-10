@@ -1,0 +1,30 @@
+.dashboard {
+  text-align: center;
+  border-top: 10px solid #d25036;
+  .container {
+    .menu-items {
+      margin-top: 2em;
+      ul {
+        li {
+          display: inline-block;
+          background: #515151;
+          border-right: 1px solid black;
+          a {
+            display: block;
+            padding: 25px 56px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          a:hover {
+            background: #d25036;
+          }
+        }
+      }
+    }
+  }
+}
+
+.active-link {
+  background: #d25036 !important;
+}
